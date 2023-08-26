@@ -1,0 +1,29 @@
+@import "reset.css";
+.body{
+    background-color: black;
+}
+canvas{
+    
+    width:500px;
+    height:500px;
+    background-color: white;
+    border-radius: 10px;
+}
+.colour-option{
+    width: 25px;
+height: 25px;
+cursor: pointer;
+padding: 10%;
+margin: 10px;
+border: 1px solid black;
+border-radius: 50%;
+}
+.color-bar{
+    width:10%;
+}
+.can{
+    width: 50%;
+} 
+.btns{
+    width: 40%;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="canvas.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyDrawingBoard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div class="color-bar"> 
+        <input type="color" id="color" class="color-picker"/>
+        <div class="colour-option" style="background-color: #2d3436;" data-color="#2d3436"></div>
+        <div class="colour-option" style="background-color: #b2bec3;" data-color="#b2bec3"></div>
+        <div class="colour-option" style="background-color: #e15f41;" data-color="#e15f41"></div>
+        <div class="colour-option" style="background-color: #ffa502;" data-color="#ffa502"></div>
+        <div class="colour-option" style="background-color: #fff200;" data-color="#fff200"></div>
+        <div class="colour-option" style="background-color: #eb2f06;" data-color="#eb2f06"></div>
+        <div class="colour-option" style="background-color: #009432;" data-color="#009432"></div>
+        <div class="colour-option" style="background-color: #A3CB38;" data-color="#A3CB38"></div>
+        <div class="colour-option" style="background-color: #4cd137;" data-color="#4cd137"></div>
+        <div class="colour-option" style="background-color: #341f97;" data-color="#341f97"></div>
+        <div class="colour-option" style="background-color: #0652DD;" data-color="#0652DD"></div>
+        <div class="colour-option" style="background-color: #12CBC4;" data-color="#12CBC4"></div>
+        <div class="colour-option" style="background-color: #FDA7DF;" data-color="#FDA7DF"></div>
+        <div class="colour-option" style="background-color: #ED4C67;" data-color="#ED4C67"></div>
+        <div class="colour-option" style="background-color: #B53471;" data-color="#B53471"></div>
+        <div class="colour-option" style="background-color: #833471;" data-color="#833471"></div>
+        <div class="colour-option" style="background-color: #6F1E51;" data-color="#6F1E51"></div>
+        </div>
+
+
+    <canvas></canvas>
+   
+    <div class="btns">
+    <input id="line-width" class="btn-grp" type="range" min="1"  max="10" value="5" step="0.5" label="line-width" />
+    <button id="btn-mode" class="btn-grp">Fill</button>
+    <button id="btn-destroy" class="btn-grp">Reset</button>
+    <button id="btn-eraser" class="btn-grp">Eraser</button>
+    <label for="img-input"> Add Photo
+    <input id="img-input" class="btn-grp" type="file" accept="image/*" />
+</label>
+    <input type="text" class="btn-grp" id="txt-input" placeholder="Write & double click"/>
+    <button id="save-btn" class="btn-grp">Save img</button>
+    <script src="app.js"></script>
+</div>
+
+</body>
+</html>
